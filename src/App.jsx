@@ -8,8 +8,8 @@ function App() {
   const {hash, pathname, search} = currentUrl;
 
   return (
-    <div className="flex justify-center items-center  h-screen">
-      <div className=" w-[720px] h-[500px] rounded-xl shadow-2xl flex flex-col gap-5">
+    <div className="flex justify-center items-center h-screen max-sm:h-[1000px]">
+      <div className=" w-[720px] h-[500px] max-sm:h-[800px] mx-5 rounded-xl shadow-2xl flex flex-col gap-5">
         <NavBar pathname={pathname}/>
         <Routes>
           <Route index element={<Profile/>} />

@@ -6,7 +6,12 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        'royal-blue' : '#4169E1'
+      }
     },
+
+    
   },
   plugins: [],
 }
