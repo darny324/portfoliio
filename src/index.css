@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities
+{
+  .link{
+    @apply flex justify-center items-center flex-1 h-full  hover:bg-[#d6ddda] rounded-md; 
+  }
+}
