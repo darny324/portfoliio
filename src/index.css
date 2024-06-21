@@ -7,4 +7,14 @@
   .link{
     @apply flex justify-center items-center flex-1 h-full hover:bg-[#d6ddda] font-semibold font-sans rounded-md text-lg text-[#5d54ac]; 
   }
+
+  .scrollbar::-webkit-scrollbar-thumb{
+    width: 12px;
+    height: 20px;
+    border-radius: 8px;
+  }
 }
+
+
+
+
