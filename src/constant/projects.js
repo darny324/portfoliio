@@ -19,4 +19,10 @@ export const myProjects = [
     field: "Game Development", 
     imgURL: "../src/assets/images/tic-tac-toe.jpg"
   }, 
+  {
+    title: "Portfolio", 
+    link: "https://github.com/darny324/portfoliio", 
+    field: "Front-end Development", 
+    imgURL: "../src/assets/images/portfolio1.webp"
+  }, 
 ];
