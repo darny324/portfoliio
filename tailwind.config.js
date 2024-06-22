@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        'royal-blue' : '#4169E1'
+        'royal-blue' : '#4169E1',
+        'coral-red': '#FF4040 '
       }
     },
 

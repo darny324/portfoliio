@@ -4,37 +4,37 @@ import { Link } from 'react-router-dom'
 const NavBar = ({pathname}) => {
   return (
     <div className="
-    flex justify-between 
-     rounded-lg  h-12
+    w-full shadow-xsm shadow-slate-800
     ">
+      <nav className='flex items-center w-full justify-between max-container'>
+        <div className="text-white text-2xl">Portfo<span className="text-coral-red">lio</span></div>
+
+        <div className="flex justify-between italic
+        rounded-lg  h-12 text-white w-1/2">
             <Link to="profile" className={`
               link
-              ${ (pathname === "/profile") ? "bg-[#e8e7ec]" : ""}
               `}>
-                <span>Profile</span>
+                <span>About me</span>
               </Link>
 
-            <Link to="projects" className={`
-              link
-              ${ (pathname === "/projects") ? "bg-[#e8e7ec]" : ""}
-              `}>
-                <span>Projects</span>
-              </Link>
-            
-            <Link to="contact" className={`
-              link
-              ${ (pathname === "/contact") ? "bg-[#e8e7ec]" : ""}
-              `}><span>Contact</span></Link>
-
-            <Link to="education" className={`
-              link
-              ${ (pathname === "/education") ? "bg-[#e8e7ec]" : ""}
-              `}><span>Education</span></Link>
             
             <Link to="skills" className={`
               link
-              ${ (pathname === "/skills") ? "bg-[#e8e7ec]" : ""}
               `}><span>Skills</span></Link>
+
+            <Link to="projects" className={`
+              link
+              `}><span>Projects</span></Link>
+            
+            <Link to="contact" className={`
+              link
+              `}><span>Contact</span></Link>
+
+            
+            
+            
+        </div>
+      </nav>
     </div>
   )
 }

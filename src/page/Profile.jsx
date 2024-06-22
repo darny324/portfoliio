@@ -5,25 +5,13 @@ import ProfilePic from '../assets/images/saber.png'
 const Profile = () => {
   return (
     <section className="
-    flex items-center flex-1 justify-between
-    max-sm:flex-col
+     text-white
     ">
-      <div className='w-[220px] h-[220px] mx-10 mt-10'>
-        <img src={ProfilePic} className="rounded-full w-full h-full object-cover left-5 object-[-120px]"></img>
-      </div>
-      <div className="flex-1 h-full py-8 pr-6 max-sm:pl-6 max-sm:py-12">
-        <div>
-          <h1 className="font-sans font-bold text-3xl text-[#4750a0]">Khant Sin Kyal</h1>
-          <span className="text-[#81828d] mt-4">Still a Student</span>
+      <div className="max-container mt-8 flex flex-between">
+        <div className='w-[400px] h-[400px] bg-white'>
+          <img src={ProfilePic} className="px-8 py-8 rounded-full w-full h-full object-cover left-5 object-[-150px]"></img>
         </div>
-
-        <div className="mt-9">
-          <span className="text-black font-bold text-2xl">Profile:</span>
-          <p className="text-royal-blue font-semibold text-base leading-normal mt-4">
-          Hello! My name is Khant Sin Kyal, and I am an aspiring developer with a passion for coding and web development. I embarked on my coding journey about a year ago and have since developed a solid foundation in C++, html, css, js. Though my professional experience is zero, my dedication and enthusiasm for learning are boundless.
-          </p>
-          
-        </div>
+        <div></div>
       </div>
     </section>
   )
