@@ -7,9 +7,9 @@ const Profile = () => {
     <section className="
      text-white
     ">
-      <div className="max-container mt-8 flex justify-start">
-        <div className='w-[400px] h-[400px] bg-white rounded-sm mr-36'>
-          <img src={ProfilePic} className="px-8 py-8 rounded-full w-full h-full object-cover left-5 object-[-150px]"></img>
+      <div className="max-container mt-8 flex flex-wrap flex-row lg:justify-start max-lg:flex-col max-lg:items-center">
+        <div className='w-[400px] h-[400px] bg-white rounded-sm lg:mr-36 max-lg:mb-12'>
+          <img src={ProfilePic} className="px-8 py-8 rounded-full w-full h-full object-cover object-[-180px]"></img>
         </div>
         <div className="w-[400px] h-[400px]">
           <div>
@@ -30,10 +30,10 @@ const Profile = () => {
           </div>
           
           <div className="mt-8">
-            <Link to="contact" className="
+            <Link to='../contact' className="
             bg-coral-red px-3 py-3 text-white text-lg font-semibold
             rounded-lg
-            ">Contact me</Link>
+            "><span>Contact me</span></Link>
           </div>
         </div>
       </div>

@@ -1,35 +1,22 @@
-class Project
-{
-  name;
-  link;
-  isOriginal;
-  text;
-  constructor(pn, ln, isOri, text)
-  {
-    this.name = pn;
-    this.link = ln;
-    this.isOriginal = isOri;
-    this.text = text;
-  }
-}
+
 
 export const myProjects = [
-  new Project(
-    "nike-react-app", 
-    "https://github.com/darny324/nike-react-app", 
-    false,
-    "A project that imitates a shopping websites.", 
-  ), 
-  new Project(
-    "open-world-rpg", 
-    "https://github.com/darny324/openWorld", 
-    false,
-    "An RPG game with menu and other functionsl", 
-  ), 
-  new Project(
-    "tic-tac-toe", 
-    "https://github.com/darny324/tic-tac-toe", 
-    false,
-    "A tic-tac-toe game with horrible UI", 
-  ), 
+  {
+    title: "nike-react-app", 
+    link: "https://github.com/darny324/nike-react-app", 
+    field: "Front-end Development",
+    imgURL: "../src/assets/images/shopping.jpg"
+  }, 
+  {
+    title: "open-world-rpg", 
+    link: "https://github.com/darny324/openWorld", 
+    field: "Game Development", 
+    imgURL: "../src/assets/images/game-project.png"
+  }, 
+  {
+    title: "tic-tac-toe", 
+    link: "https://github.com/darny324/tic-tac-toe", 
+    field: "Game Development", 
+    imgURL: "../src/assets/images/tic-tac-toe.jpg"
+  }, 
 ];

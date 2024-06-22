@@ -7,9 +7,9 @@ const Skills = () => {
   return (
     <div>
       <div className="max-container mt-10">
-        <h1 className=" text-5xl italic text-white text-center">My Skills</h1>
+        <h1 className=" text-5xl italic text-white text-center ">My Skills</h1>
 
-        <div className="flex flex-col my-10 bg-[#11141D] rounded-lg">
+        <div className="flex flex-col my-10 bg-[#11141D] rounded-lg max-lg:mx-10">
           {
             skills.map((skill) => {
               return (

@@ -8,9 +8,8 @@ function App() {
   const currentUrl = useLocation();
   const {hash, pathname, search} = currentUrl;
   const doc = useRef(document);
-  
 
-  console.log(pathname);
+  
   if ( pathname === '/home' || pathname === '/')
   {
     console.log(pathname);
