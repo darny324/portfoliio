@@ -8,7 +8,8 @@ export default {
     extend: {
       colors: {
         'royal-blue' : '#4169E1',
-        'coral-red': '#FF4040 '
+        'coral-red': '#FF4040 ',
+        'slate-gray': '#708090', 
       }
     },
 

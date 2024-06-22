@@ -3,6 +3,7 @@ import Contact from "./Contact";
 import Profile from "./Profile";
 import Skills from './Skills'
 import NavBar from "../Components/NavBar";
+import Home from "./Home";
 
 export 
 {
@@ -10,5 +11,6 @@ export
   Contact, 
   Profile, 
   Skills, 
-  NavBar
+  NavBar, 
+  Home
 }
