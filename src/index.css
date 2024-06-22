@@ -37,6 +37,29 @@
     box-shadow: 0px 1px rgba(136, 137, 141, 0.301);
   }
 
+  @media (max-width: 640px)
+  {
+    .nav-button{
+      display: block;
+    }
+
+
+    .nav-link{
+      display: none;
+    }
+
+    .is-open{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      z-index: 2;
+      width: 25%;
+      margin-top: 8px;
+    }
+
+    
+  }
+
 
 }
 

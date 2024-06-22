@@ -2,7 +2,9 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className="text-white">contact</div>
+    <section className="text-white">
+      <div className="max-container">Contact</div>
+    </section>
   )
 }
 

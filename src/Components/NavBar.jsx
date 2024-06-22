@@ -1,17 +1,36 @@
-import React from 'react'
+import React, { useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
+import hamburger from '../assets/images/hamburger2.svg'
 
 const NavBar = ({pathname}) => {
+
+  const [isOpen, setIsOpen] = useState(false);
+  
+  function clickNavButton()
+  {
+    setIsOpen((o) => !o);
+  }
+
   return (
-    <div className="
+    <nav className="
     w-full shadow-xsm shadow-slate-800
     ">
-      <nav className='flex items-center w-full justify-between max-container'>
-        <div className="text-white text-2xl italic font-bold">Portfo<span className="text-coral-red">lio</span></div>
+      <ul className='max-sm:block flex relative py-3 items-center w-full justify-between max-container max-sm:px-6 flex-wrap'>
+        <li className="max-sm:w-full flex justify-between">
+          <div className="text-white text-2xl italic font-bold">
+            Portfo<span className="text-coral-red">lio</span>
+          </div>
+        
 
-        <div className="flex justify-between italic
-        rounded-lg  h-12 text-white w-1/2">
-
+          <button className="hidden max-sm:block nav-button"  onClick={clickNavButton}>
+              <img src={hamburger} width={24} height={24}></img>
+          </button>
+        </li>
+       
+        <li className={
+          `italic flex justify-stretch w-1/2 nav-link ${isOpen ? "is-open" : ""}
+        rounded-lg text-white`
+        } >
             <Link to="home" className={`
               link
               `}><span>Home</span></Link>
@@ -34,13 +53,12 @@ const NavBar = ({pathname}) => {
             <Link to="contact" className={`
               link
               `}><span>Contact</span></Link>
+        </li>
 
-            
-            
-            
-        </div>
-      </nav>
-    </div>
+        
+        
+      </ul>
+    </nav>
   )
 }
 
