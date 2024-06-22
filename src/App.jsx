@@ -10,7 +10,8 @@ function App() {
   const doc = useRef(document);
   
 
-  if ( pathname === '/home')
+  console.log(pathname);
+  if ( pathname === '/home' || pathname === '/')
   {
     console.log(pathname);
     doc.current.body.style = `
