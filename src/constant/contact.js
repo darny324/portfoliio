@@ -1,14 +1,18 @@
+import facebookIcon from '../assets/images/facebook.svg'
+import telegramIcon from '../assets/images/telegram.svg'
+import githubIcon from '../assets/images/github.svg'
+
 export const contacts = [
   { 
-    imgURL: '../src/assets/images/facebook.svg',
+    imgURL: facebookIcon,
     link: 'https://www.facebook.com/profile.php?id=100036717753880'
   }, 
   { 
-    imgURL: '../src/assets/images/telegram.svg',
+    imgURL: telegramIcon,
     link: 'https://t.me/khantsinkyal'
   }, 
   { 
-    imgURL: '../src/assets/images/github.svg',
+    imgURL: githubIcon,
     link: 'https://github.com/darny324'
   }, 
 ];
