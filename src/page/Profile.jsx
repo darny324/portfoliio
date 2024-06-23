@@ -1,10 +1,29 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import ProfilePic from '../assets/images/saber.png'
+import { motion } from 'framer-motion'
 
 const Profile = () => {
   return (
-    <section className="
+    <motion.div 
+    initial={
+      { opacity: 0}
+    }
+    animate={ 
+      { 
+        opacity: 1, 
+        transition: {
+          duration: 0.5,
+          ease: [0.87, 0, 0.13, 1],
+        },
+      }
+    }
+    exit={
+      {
+        opacity: 0
+      }
+    }
+    className="
      text-white
     ">
       <div className="max-container mt-8 flex flex-wrap flex-row lg:justify-start max-lg:flex-col max-lg:items-center">
@@ -37,7 +56,7 @@ const Profile = () => {
           </div>
         </div>
       </div>
-    </section>
+    </motion.div>
   )
 }
 

@@ -11,7 +11,7 @@
 
 @layer components {
   .max-container { /* set max width */
-    max-width: 950px;
+    max-width: 1000px;
     margin: 0 auto;
   }
 
