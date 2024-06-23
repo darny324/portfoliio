@@ -26,7 +26,7 @@ const Profile = () => {
     className="
      text-white
     ">
-      <div className="max-container mt-8 flex flex-wrap flex-row lg:justify-start max-lg:flex-col max-lg:items-center">
+      <div className="max-container max-lg:mx-10 mt-8 flex flex-wrap flex-row lg:justify-start max-lg:flex-col max-lg:items-center">
         <div className='w-[400px] h-[400px] bg-white rounded-sm lg:mr-36 max-lg:mb-12'>
           <img src={ProfilePic} className="px-8 py-8 rounded-full w-full h-full object-cover object-[-180px]"></img>
         </div>
