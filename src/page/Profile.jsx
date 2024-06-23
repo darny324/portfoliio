@@ -43,7 +43,7 @@ const Profile = () => {
           </p>
 
           <div>
-            <ol className="h-full grid grid-cols-2 gap-2 list-decimal ml-4 mt-5 text-lg italic font-semibold">
+            <ol className="h-full max-sm:grid-cols-1 grid grid-cols-2 gap-2 list-decimal ml-4 mt-5 text-lg italic font-semibold">
               <li>Critilcal thinking</li>
               <li>Web Development</li>
               <li>Game Development</li>
