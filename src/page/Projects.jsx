@@ -10,7 +10,7 @@ const Projects = () => {
         <h3 className=" text-5xl font-bold italic mb-3">My Projects</h3>
         <p className="text-coral-red italic">Some of my distinguished works</p>
       </div>
-      <div className="max-container grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6 max-lg:mx-6">
+      <div className="max-container grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6 max-lg:mx-10">
         {
           myProjects.map((project) => {
             return (
