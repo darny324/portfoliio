@@ -24,13 +24,15 @@ const Profile = () => {
       }
     }
     className="
-     text-white  max-lg:mx-10
+     text-white my-8
     ">
-      <div className="max-container mt-8 flex flex-wrap flex-row lg:justify-start max-lg:flex-col max-lg:items-center">
-        <div className='w-[400px] h-[400px] bg-white rounded-sm lg:mr-36 max-lg:mb-12'>
-          <img src={ProfilePic} className="px-8 py-8 rounded-full w-full h-full object-cover object-[-180px]"></img>
+      <div className="
+      max-container my-8 flex flex-wrap flex-row lg:justify-start max-lg:flex-col max-lg:items-center 
+      max-lg:px-10">
+        <div className='w-[400px] h-[400px] max-sm:w-[300px] max-sm:h-[300px] bg-white rounded-sm lg:mr-36 max-lg:mb-12 px-8 py-8'>
+          <img src={ProfilePic} className="rounded-full object-cover w-full h-full"></img>
         </div>
-        <div className="w-[400px] h-[400px]">
+        <div className="w-[400px] max-sm:w-[300px] h-full">
           <div>
             <h1 className="text-3xl">About Me</h1>
             <p className="text-coral-red">Hi! My name is Khant Sin Kyal</p>
@@ -55,6 +57,7 @@ const Profile = () => {
             "><span>Contact me</span></Link>
           </div>
         </div>
+
       </div>
     </motion.div>
   )

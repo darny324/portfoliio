@@ -15,7 +15,7 @@ const NavBar = ({pathname}) => {
     <nav className="
     w-full shadow-xsm shadow-slate-800
     ">
-      <ul className='max-sm:block flex  py-3 items-center w-full justify-between max-container max-sm:px-6 flex-wrap'>
+      <ul className='max-sm:block flex max-sm:px-10 py-3 items-center w-full justify-between max-container  flex-wrap'>
         <li className="max-sm:w-full flex justify-between">
           <a href="\" className="text-white text-2xl italic font-bold">
             Portfo<span className="text-coral-red">lio</span>
@@ -28,7 +28,7 @@ const NavBar = ({pathname}) => {
         </li>
        
         <li className={
-          `italic flex justify-stretch w-1/2 nav-link ${isOpen ? "is-open" : ""}
+          `italic flex w-1/2 nav-link ${isOpen ? "is-open" : ""}
         rounded-lg text-white`
         } >
             <Link to="home" className={`
