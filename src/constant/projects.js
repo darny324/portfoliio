@@ -2,6 +2,7 @@ import tictactoeImg from '../assets/images/tic-tac-toe.jpg'
 import openWorldImg from '../assets/images/game-project.png'
 import shoppingImg from '../assets/images/shopping.jpg'
 import portfolioImg from '../assets/images/portfolio1.webp'
+import movieImg from '../assets/images/movie.png'
 
 export const myProjects = [
   {
@@ -28,4 +29,10 @@ export const myProjects = [
     field: "Front-end Development", 
     imgURL: portfolioImg
   }, 
+  {
+    title: "Movies Searcher", 
+    link: "https://github.com/darny324/portfoliio", 
+    field: "Front-end Development", 
+    imgURL: movieImg
+  },
 ];
